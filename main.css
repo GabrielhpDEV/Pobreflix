@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > header{
+    background-color: black;
+    height:130px;
+    padding: 50px 0;
+    
+}
+
+body > header,
+h1{
+    background-color: black;
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    border: 20px;
+    border-color: gray;
+}
+
+header li {
+    display:inline;
+    background-color: black;
+}
+
+header ul {
+    background-color: black;
+}
+
+header li a {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    font-size: 40px;
+    background-color: black;
+}
+
+
+header .cabecalho {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+
+
+#divBusca{
+background-color:rgba(255, 0, 0, 0.336);
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+    color: rgb(214, 214, 214);
+
+}
+
+
+
+
+
+.cabecalho{
+    width: 1366px;
+    margin: 0 auto;
+    gap: 75px;
+}
+
+.cabecalho h1{
+    font-size: 40px;
+}
+
+#romance{
+    flex-wrap: wrap ;
+}
+
+.artigos{
+    padding-top: 70px;
+    padding-left:30px;
+    display: flex;
+    gap: 15px;
+    padding: 100px;
+    flex-wrap: nowrap ;
+    padding-right:150px ;
+    background-color: rgb(27, 27, 27);
+}
+
+.artigos h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 60px;
+    position: relative;
+    bottom: 70px;
+}
+
+.titulo p {
+    color: white;
+position: relative;
+    left: 5px;
+    font-size: larger;
+    background-color: rgb(27, 27, 27);
+}
+
+.titulo time{
+    position: relative;
+    left:90px;
+    color: #a1a1a1;
+    background-color: rgb(27, 27, 27);
+}
+
+.titulo2 p{
+    color: white;
+    position: relative;
+        left: 1px;
+        font-size: larger;
+        background-color: rgb(27, 27, 27);
+}
+
+
+.titulo2 time{
+    position: relative;
+    left:80px;
+    color: #a1a1a1;
+    background-color: rgb(27, 27, 27);
+}
+
+
+.artigo2{
+    padding-top: 70px;
+    padding-left:30px;
+    display: flex;
+    gap: 15px;
+    padding: 100px;
+    flex-wrap: nowrap ;
+    padding-right:150px ;
+    color: #a1a1a1;
+}
+
+.artigo2 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 60px;
+    position: relative;
+    bottom: 70px;
+    color: white;
+
+}
+
+
+.tituloh p{
+    color: white;
+position: relative;
+    left: 5px;
+    font-size: larger;
+    color: #ffffff;
+
+}
+
+.tituloh time{
+    position: relative;
+    left:90px;
+    color: #a1a1a1;
+
+}
+
+.tituloh2 p{
+    color: white;
+    position: relative;
+        left: 1px;
+        font-size: larger;
+
+}
+
+
+.tituloh2 time{
+    position: relative;
+    left:80px;
+    color: #a1a1a1;
+
+}
+
+
+#assistirdnv{
+    background-color:rgb(20, 20, 20);
+    flex-wrap: nowrap;
+}
+
