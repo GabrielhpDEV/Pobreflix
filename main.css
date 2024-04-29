@@ -2,13 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body > header{
     background-color: black;
-    height:130px;
-    padding: 50px 0;
+    height:120px;
+    padding: 10px 0;
     
 }
 
@@ -16,10 +16,8 @@ body > header,
 h1{
     background-color: black;
     color: red;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Bungee", sans-serif;
     background-color: black;
-    border: 20px;
-    border-color: gray;
 }
 
 header li {
@@ -38,7 +36,6 @@ header li a {
     font-size: 40px;
     background-color: black;
 }
-
 
 header .cabecalho {
     background-color: black;
@@ -83,7 +80,7 @@ background-color:rgba(255, 0, 0, 0.336);
 }
 
 #romance{
-    flex-wrap: wrap ;
+    flex-wrap: nowrap ;
 }
 
 .artigos{
@@ -197,3 +194,42 @@ position: relative;
     flex-wrap: nowrap;
 }
 
+.footer{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    padding: 45px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    height: 100%;
+}
+
+footer h1{
+    position: relative;
+    top: -45px;
+    left: 300px;
+}
+
+
+footer p{
+    position: relative;
+    bottom: -50px;
+    right: 170px;
+}
+
+footer a {
+position: relative;
+right: -100px;
+bottom: -20px;
+text-decoration: none;
+cursor: pointer;
+color: rgb(148, 163, 216);
+}
+
+footer a:hover{
+    color: blue;
+}
