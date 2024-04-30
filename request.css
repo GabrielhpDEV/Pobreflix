@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 1920px;
+    font-family: "roboto", sans-serif;
+    background-color:#a1a1a1;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    gap: 150px;
+}
+
+header a, 
+header h2,
+header h1,
+header h3{
+    display: inline;
+    font-family: "Bungee", sans-serif;
+    position:relative;
+    right: -100px;
+    padding: 10px;
+}
+
+
+
+header h1{
+    color: red;
+}
+
+header h2,
+header h3{
+    font-family: 'roboto';
+    color: rgb(199, 199, 199);
+    
+}
+
+header h3{
+    font-size: 30px;
+}
+
+header h2{
+    font-size: 28px;
+}
+
+header a{
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: -1100px;
+}
+
+main{
+    position: relative;
+    right: -100px;
+}
+
+main h2{
+    margin-top:auto;
+    font-size: 50px;
+}
+
+main h4{
+    margin-top: 40px;
+}
+
+form input,
+form textarea,
+form button{
+    display:flex;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: rgba(202, 202, 202, 0.521);
+}
+
+
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button:hover{
+    background-color: red;
+}
+
+
+
+.footer{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    padding: 45px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    height: 100%;
+}
+
+footer h1{
+    position: relative;
+    top: -30px;
+    left: 200px;
+    color: red;
+}
+
+
+footer p{
+    position: relative;
+    bottom: -30px;
+    right: 20px;
+}
+
+
+

@@ -35,6 +35,7 @@ header li a {
     color: rgb(211, 211, 211);
     font-size: 40px;
     background-color: black;
+    font-family: 'Roboto';
 }
 
 header .cabecalho {
@@ -206,6 +207,7 @@ footer{
     color: white;
     justify-content: center;
     height: 100%;
+
 }
 
 footer h1{
@@ -218,7 +220,7 @@ footer h1{
 footer p{
     position: relative;
     bottom: -50px;
-    right: 170px;
+    right: 165px;
 }
 
 footer a {
@@ -227,9 +229,9 @@ right: -100px;
 bottom: -20px;
 text-decoration: none;
 cursor: pointer;
-color: rgb(148, 163, 216);
+color: blue;
 }
 
 footer a:hover{
-    color: blue;
+    color: rgb(91, 91, 179);
 }
