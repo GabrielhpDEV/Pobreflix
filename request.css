@@ -8,7 +8,8 @@
 body{
     width: 1920px;
     font-family: "roboto", sans-serif;
-    background-color:#a1a1a1;
+    background-color:rgb(8, 8, 8);
+    overflow-x: hidden;
 }
 
 header{
@@ -20,7 +21,8 @@ header{
 header a, 
 header h2,
 header h1,
-header h3{
+header h3, 
+main h1{
     display: inline;
     font-family: "Bungee", sans-serif;
     position:relative;
@@ -28,16 +30,15 @@ header h3{
     padding: 10px;
 }
 
-
-
-header h1{
+header h1,
+main h1{
     color: red;
 }
 
 header h2,
 header h3{
     font-family: 'roboto';
-    color: rgb(199, 199, 199);
+    color: white;
     
 }
 
@@ -60,6 +61,7 @@ header a{
     right: -1100px;
 }
 
+
 main{
     position: relative;
     right: -100px;
@@ -68,10 +70,13 @@ main{
 main h2{
     margin-top:auto;
     font-size: 50px;
+    color: white;
 }
 
 main h4{
     margin-top: 40px;
+    margin-bottom: 10px;
+    color: white;
 }
 
 form input,
@@ -81,10 +86,9 @@ form button{
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
-    background-color: rgba(202, 202, 202, 0.521);
+    background-color:#fff ;
+    color:gray;
 }
-
-
 
 form textarea{
     resize: none;
@@ -114,7 +118,7 @@ footer{
 footer h1{
     position: relative;
     top: -30px;
-    left: 200px;
+    right: -200px;
     color: red;
 }
 
@@ -125,5 +129,22 @@ footer p{
     right: 20px;
 }
 
+main h1{
+    position: relative;
+    right: -680px;
+    bottom: 400px;
+}
 
+main p{
+    color: white;
+    position: relative;
+    right: -500px;
+    bottom: 400px;
+}
 
+main h3{
+    color: white;
+    position: relative;
+    right: -450px;
+    bottom: 400px;
+}
